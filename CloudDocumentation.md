@@ -36,6 +36,7 @@ Long term storage of data is provided by Amazon S3 and Amazon DynamoDB. Since bo
 # Development Workflow
 #### Code Development and Version Control
 As most of our backend work is performed on AWS, it made sense to utilize the development tools made available to use through AWS. The majority of coding for backend services are currently either performed directly through the AWS Management Console or, more commonly, through Amazon’s cloud IDE Cloud9. Cloud9 allows for true flexibility with built-in Git compatibility as well as multiple direct AWS service integrations such as Lambda. Our code is stored on a private GitHub repository under the [Internship Initiative Organization](https://github.com/InternInit)[^3].
+
 ---
 
 [^3]: We may migrate to AWS CodeCommit however there is currently no need as GitHub satisfies our needs as a team.
