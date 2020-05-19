@@ -2,7 +2,7 @@
 
 ---
 
-### The Internship Initiative LLC. - May 2020
+### The Internship Initiative LLC. - May 2020 - Ongoing
 
 [Cloud Infrastructure on AWS](/CloudDocumentation)
 <img src="images/cloud_infrastructure.png?raw=true"/>
