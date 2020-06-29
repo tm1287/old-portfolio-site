@@ -35,10 +35,9 @@ Since file data is too large to effectively cache, file uploads are handled imme
 
 #### Retrieving Data From Long Term Storage
 Once a user requests that their application be sent to a specific business, steps must be taken to conveniently display necessary intern data. The AWS Step Function service was perfectly suited for this operation as we were able to integrate multiple AWS services together into an easily repeatable procedural workflow. The workflow graph displayed below outline the basic flow user data follows upon the invocation of the state machine. First, user data is pulled from long term storage in S3 and DynamoDB. Then it is passed to a Lambda Function responsible for displaying the data in a PDF file formatted as [such](images/example.pdf). In order to do so, JSON data is inserted into an HTML template which is styled using a Bootstrap stylesheet. This html is converted into a pdf through the use of the [wkhtmltopdf tool](https://wkhtmltopdf.org/). This pdf is stored in the user's subfolder in S3 and. Finally, user data is compared to onboarded business data and students are matched with businesses that match their interests.
+
 ![StepFunction](images/stepfunctions_graph.png)
 
 # Development Workflow
 #### Code Development and Version Control
-As most of our backend work is performed on AWS, it made sense to utilize the development tools made available to use through AWS. The majority of coding for backend services are currently either performed directly through the AWS Management Console or, more commonly, through Amazon’s cloud IDE Cloud9. Cloud9 allows for true flexibility with built-in Git compatibility as well as multiple direct AWS service integrations. Our code is stored on a private GitHub repository under the [Internship Initiative Organization](https://github.com/InternInit)[^3].
-
-[^3]: We may migrate to AWS CodeCommit however there is currently no need as GitHub satisfies our needs as a team.
+As most of our backend work is performed on AWS, it made sense to utilize the development tools made available to use through AWS. The majority of coding for backend services are currently either performed directly through the AWS Management Console or, more commonly, through Amazon’s cloud IDE Cloud9. Cloud9 allows for true flexibility with built-in Git compatibility as well as multiple direct AWS service integrations. Our code is stored on a private GitHub repository under the [Internship Initiative Organization](https://github.com/InternInit.
