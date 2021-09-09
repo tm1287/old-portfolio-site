@@ -2,6 +2,15 @@
 
 ---
 
+### The Scholastic Artificial Intelligence League (Liftoff 2021) - Jun 2021 - Ongoing
+#### Introduction
+I began contracting with The Scholastic Artificial Intelligence League (SAILea) in June of 2021 as a Competition Organizer. I was tasked with creating a fullstack application to run SAILea’s premier AI and programming competition, Liftoff 2021. First and foremost, this entailed the design and creation of a React web application to serve as a competition homepage. Additionally, this required me to orchestrate a backend infrastructure on AWS capable of hosting the React webapp, validating and grading problem submissions, and simulating and scoring AI submissions. Read more about it below.
+
+[Liftoff 2021](/LiftoffDocumentation)
+<img src="images/SaileaCloudDiagram.png?raw=true"/>
+
+---
+
 ### The Internship Initiative LLC. - Jan 2020 - Ongoing
 #### Introduction
 
