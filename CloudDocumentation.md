@@ -6,6 +6,7 @@
 #### Amazon Lightsail
 The Internship Initiative landing page consists of a Wordpress site running on an Apache 2.0 server hosted on the Amazon Lightsail service. Wordpress was an ideal starting point for our operations as the support and ease associated with Wordpress allows us to focus on creating a robust backend infrastructure without allocating too many resources to website maintenance. Likewise, Amazon Lightsail provided us with a cost-effective and low maintenance implementation for website hosting. SSL certification is provided for the interninit.com website through the Let’s Encrypt Organization.
 
+#### EC2
 The student and business portals however are hosted on a fleet of EC2 instances within an autoscaling group. Since these applications interact with a host of AWS resources such as load balancers and APIs, it made sense to deploy onto EC2.
 
 #### Amazon Route 53
