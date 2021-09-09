@@ -1,6 +1,6 @@
 # Basic Cloud Infrastructure[^1]
 
-![Infrastructure](images/flowchart.png)
+![Infrastructure](images/InterninitCloudDiagram.png)
 
 [^1]: This infrastructure will eventually be modeled and provisioned in an Amazon Cloudformation template for future automation and rapid deployment as well as in the case of a catastrophic system failure.
 
