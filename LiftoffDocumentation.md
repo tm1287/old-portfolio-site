@@ -16,7 +16,7 @@ My first task involved the design and creation of the Liftoff 2021 website. I ac
 ## AWS
 
 ### Hosting
-In decided to host this frontend application through deployment onto a fleet of EC2 instances within an autoscaling group. Requests are balanced to this ASG through an Application Load Balancer which also provides SSL termination and metrics for autoscaling. Each EC2 instance is running an Nginx webserver responsible for serving the React webapp to users.
+I decided to host this frontend application through deployment onto a fleet of EC2 instances within an autoscaling group. Requests are balanced to this ASG through an Application Load Balancer which also provides SSL termination and metrics for autoscaling. Each EC2 instance is running an Nginx webserver responsible for serving the React webapp to users.
 
 ### API
 For this project I decided to use a GraphQL API as opposed to a traditional REST API. This was done in order to avoid having to write lambda functions to back API Gateway methods while simultaneously allowing for specialized queries and mutations. This GraphQL API was built using AWS AppSync, allowing us to natively query data sources ranging from RDS to DynamoDB to S3.
